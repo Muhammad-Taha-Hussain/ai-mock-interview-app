@@ -10,9 +10,9 @@ import {
   DialogClose,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Button } from "/components/ui/button";
-import { Input } from "/components/ui/input";
-import { Textarea } from "/components/ui/Textarea";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import main from "../../../utils/GeminiAIModal";
 import { Loader2, LoaderCircle, LucideLoader } from "lucide-react";
 import { useUser } from "@clerk/nextjs";
